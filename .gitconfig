@@ -1,0 +1,41 @@
+[user]
+    email = conrado@buhrer.net
+    name = Conrado Buhrer
+[push]
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+    ui = true
+    pager = true
+# possible colors are:
+#
+#  normal
+#  black
+#  red
+#  green
+#  yellow
+#  blue
+#  magenta
+#  cyan
+#  white
+#
+# and may be combined with one of these attributes:
+#
+#  bold
+#  dim
+#  ul
+#  blink
+#  reverse
+#
+[color "status"]
+    added = green
+    changed = yellow
+    untracked = blue
+[color "branch"]
+    remote = yellow
+[push]
+    default = simple
+[core]
+    editor = vi
